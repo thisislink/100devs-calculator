@@ -6,43 +6,40 @@ body {
     color: #000;
 }
 
+.flexboxContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
 .calculatorBody {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-content: flex-start;
     background-color: #000;
     width: 400px;
-    height: 500px;
+    height: 100%;
     border-radius: 14px;
+    padding: 0 5em 4em 5em;
 }
 
 .calculationsWindow {
     background-color: #fff;
-    width: 300px;
+    width: 100%;
     height: 80px;
     border-radius: 11px;
     margin-top: 4em;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.buttonsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 /* calculator buttons */
 .calculatorButton {
     background: #fff;
     border-radius: 50%; 
-    width: 25%;
+    width: 50px;
     padding: 0.5rem 0;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    margin: 1%;
 }
